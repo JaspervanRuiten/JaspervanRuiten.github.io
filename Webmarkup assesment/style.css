@@ -1,0 +1,412 @@
+@media only screen and (min-width: 960px) {
+	
+body {
+	background-image: url("img/companylogoBG.jpg"), url("img/background.jpeg");
+	background-position: center top, left top;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 600px 300px, 1920px 1080px;
+	z-index: -1;
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin: 60;
+}
+ul {
+	width: 600px;
+    list-style-type: none;
+    margin: 70 auto;
+	padding: 0;
+	overflow: hidden;
+    background-color: #808080;
+	text-align: center;
+}
+
+li {
+	display:inline-block;
+}
+
+li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+	font-size: 20px;
+}
+li a:hover {
+    background-color: #111;
+}
+h2.test1 {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin: -70 auto;
+	width: 600px;
+	height: 55px;
+	background-color: #2699FB;
+}
+h2.test {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin: -70 auto;
+	width: 600px;
+	height: 55px;
+	background-color: #2699FB;
+}
+p {
+	width:600px;
+	height:670px;
+	background: white;
+	margin: 70 auto;
+}
+h3 {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	width: 600px;
+	height: 30px;
+	margin: 1 auto;
+	background-color:#000000;
+}
+h6 {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	width: 600px;
+	height: 30px;
+	margin: -90 auto;
+	background-color:#000000;
+}
+img {
+	width: 188px;
+	height: 150px;
+	margin-top: 5;
+	margin-left: 4;
+	margin-right: 4	
+}
+h4 {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	width: 600px;
+	height: 30px;
+	margin: -93 auto;
+	background-color:#000000;
+}
+h5 {
+	text-align: center;
+	color: white;
+	width: 600px;
+	height: 50px;
+	margin: 55 auto;
+	background-color:#2699FB;
+	font-size: 40px;
+}
+.foto1 {
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+	height: 325px;
+	margin-top: -55;
+}
+.foto2 {
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+	height: 325px;
+	margin-top: -1;
+}
+.foto3 {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+	height: 325px;
+	margin-top: -1;
+}
+.foto4 {
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+	height: 325px;
+	margin-top: -1;
+}
+h5.Mobile {
+	text-align: center;
+	color: white;
+	width: 600px;
+	height: 50px;
+	margin: 0 auto;
+	background-color:#2699FB;
+	font-size: 40px;
+}
+h5.Board {
+	text-align: center;
+	color: white;
+	width: 600px;
+	height: 50px;
+	margin: 0 auto;
+	background-color:#2699FB;
+	font-size: 40px;
+}
+h5.Console {
+	text-align: center;
+	color: white;
+	width: 600px;
+	height: 50px;
+	margin: 0 auto;
+	background-color:#2699FB;
+	font-size: 40px;
+}
+input[type=text] {
+	width: 500px;
+	height: 30px;
+}
+input[type=email] {
+	width: 500px;
+	height: 30px;
+}
+textarea {
+	width: 500px;
+	height: 90px;
+}
+select {
+	width: 300px;
+	height: 20px;
+}
+label {
+	color: white;
+	text-align: left;
+}
+input[type=submit] {
+	width: 500px;
+	height: 30px;
+	background-color: #2699FB;
+	color: white;
+	border: none;
+	font-size: 20px;
+}
+fieldset {
+	border:none;
+}
+
+fieldset.contactFormFieldset {
+	border: none;
+}
+h2.Contact {
+	width: 600px;
+	height: 355px;
+	background-color: #dadae8;
+	margin: 70 auto;
+}
+p.test2 {
+	text-align: left;
+	font-size: 20px;
+	color: gray;
+}
+}
+@media only screen and (max-width: 960px) {
+	
+body {
+	background-image: url("img/companylogoBG.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 960px 300px;
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin: 60;
+}
+h2.test1 {
+	display: none;
+}
+
+h2.Test {
+	text-align: center;
+	color: white;
+	font-size: 65px;
+	margin: -150 auto;
+	width: 960px;
+	height: 55px;
+	background-color: #2699FB;
+	margin-left: -8;
+}
+
+ul {
+	width: 960px;
+    list-style-type: none;
+	padding: 0;
+    margin: 150 auto;
+	overflow: hidden;
+    background-color: #808080;
+	text-align: center;
+	margin-left: -8	;
+}
+
+li {
+	display:inline-block;
+}
+
+li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+	font-size: 20px;
+}
+li a:hover {
+    background-color: #111;
+}
+img {
+	width: 470px;
+	height: 240px;
+	margin-top: 5;
+	margin-left: 4;
+	margin-right: 4	
+}
+p {
+	width:960px;
+	height:1650px;
+	background: white;
+	margin: -150 auto;
+}
+h3 {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	width: 960px;
+	height:40px;
+	margin: 0 auto;
+	background-color:#000000;
+	margin-left: -8;
+}
+.foto1 {
+	float: left;
+	margin-top: -145;
+	margin-left: -8;
+    width: 457px;
+	height: 340px;
+}
+.foto2 {
+	float: right;
+	margin: -145 ;
+    width: 457px;
+	height: 340px;
+	margin-right: -8;
+}
+.foto3 {
+	display: none;
+}
+.foto4 {
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+	height: 480px;
+	margin-top: -340;
+	margin-left: -8;
+}
+h5 {
+	text-align: center;
+	color: white;
+	width: 960px;
+	height: 70px;
+	margin: 145 auto;
+	background-color:#2699FB;
+	font-size: 65px;
+	margin-left: -8;
+}
+h5.Board {
+	display: none;
+}
+h5.Mobile {
+	display: none;
+}
+h5.Console {
+	text-align: center;
+	color: white;
+	width: 960px;
+	height: 50px;
+	margin: 340 auto;
+	background-color:#2699FB;
+	font-size: 40px;
+	margin-left: -8;
+}
+input[type=text] {
+	width: 500px;
+	height: 30px;
+}
+input[type=email] {
+	width: 500px;
+	height: 30px;
+}
+textarea {
+	width: 500px;
+	height: 90px;
+}
+select {
+	width: 300px;
+	height: 20px;
+}
+label {
+	color: white;
+	text-align: left;
+}
+input[type=submit] {
+	width: 500px;
+	height: 30px;
+	background-color: #2699FB;
+	color: white;
+	border: none;
+	font-size: 20px;
+}
+fieldset {
+	border:none;
+}
+
+fieldset.contactFormFieldset {
+	border: none;
+}
+h2.Contact {
+	width: 960px;
+	height: 355px;
+	background-color: #dadae8;
+	margin: -150 auto;
+	font-size: 20px;
+	color: gray;
+	text-align: left;
+	margin-left: -8;
+}
+h4 {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	width: 960px;
+	height: 30px;
+	margin: 110 auto;
+	background-color:#000000;
+	margin-left: -8;
+}
+h6 {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	width: 960px;
+	height: 30px;
+	margin: -90 auto;
+	background-color:#000000;
+}
+}	

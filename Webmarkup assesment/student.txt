@@ -1,0 +1,15 @@
+student name : Jasper van Ruiten
+student number : 632785
+student class : inf1sc
+
+ps
+
+Ik vind dat we bij het maken van de website al eerder hadden moeten beginnen, ik heb nu dingen gedaan 
+die ik niet geleerd heb. Dus heb ik ze overgenomen van het internet en proberen te begrijpen. 
+
+Als we in de lessen al waren begonnen op dit niveau (oefenen met responsive maken, navigatie balken, plaatjes
+stylen) was het denk ik voor iedereen iets makkelijker geweest. 
+
+Tuurlijk begrijp ik dat we oud genoeg zijn om het allemaal zelf op telossen en dat is ook gelukt, maar 
+ik had liever les gehad die bijdrage had bij het maken van deze website.
+
